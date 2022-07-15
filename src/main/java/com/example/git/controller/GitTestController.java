@@ -13,9 +13,5 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class GitTestController {
 
-    @GetMapping("/git")
-    public String git() {
-        return "这是测试代码";
-    }
 
 }
